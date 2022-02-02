@@ -28,9 +28,6 @@ const ThreeApp = () => {
             <Box key={id} id={id} position={position} />
           ))
         )}
-        {/* {boxes.map(({ id, position }) => (
-          <Box key={id} position={position} />
-        ))} */}
       </group>
       <OrbitControls enabled={controlsEnabled} />
     </Fragment>
